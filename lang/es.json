@@ -430,7 +430,7 @@
                     "moves": "Movimientos de descanso corto ({current}/{max})",
                     "tendToWounds": {
                         "name": "Atender heridas",
-                        "description": "Describe cómo cierras rápidamente tus heridas, luego elimina un número de heridas igual a 1d4 + tu rango. Puedes elegir hacer esto sobre un aliado."
+                        "description": "Describe cómo tratas rápidamente tus heridas, luego elimina un número de heridas igual a 1d4 + tu rango. Puedes elegir hacer esto para un aliado."
                     },
                     "clearStress": {
                         "name": "Eliminar estrés",
