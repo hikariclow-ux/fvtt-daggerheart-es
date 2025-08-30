@@ -430,7 +430,7 @@
                     "moves": "Movimientos de descanso corto ({current}/{max})",
                     "tendToWounds": {
                         "name": "Atender heridas",
-                        "description": "Describe how you hastily patch yourself up, then clear a number of Hit Points equal to 1d4 + your tier. You can do this to an ally instead."
+                        "description": "Describe cómo cierras rápidamente tus heridas, luego elimina un número de heridas igual a 1d4 + tu rango. Puedes elegir hacer esto sobre un aliado."
                     },
                     "clearStress": {
                         "name": "Eliminar estrés",
@@ -591,9 +591,9 @@
             },
             "AdversaryTrait": {
                 "relentless": {
-                    "_name": "Relentless",
-                    "_description": "A foe with Relentless can activate up to X times during a GM move so long as there are enough action tokens.",
-                    "_tip": "The Relentless move is useful if you want an adversary you can activate more than once during a single GM move. This is often best for exceedingly fast or dangerous foes, or for adversaries who are likely to be battling the party on their own."
+                    "_name": "Implacable",
+                    "_description": "Un adversario con Implacable puede activarse hasta X veces durante un movimiento de DJ siempre y cuando queden contadores de Implacable disponibles.",
+                    "_tip": "El movimiento de Implacable es útil si quieres activar a un adversario más de una vez en un solo movimiento de DJ. Esta opción es la mejor para los adversarios más rápidos o peligrosos, o para adversarios que lucharan contra el grupo sin ayuda."
                 },
                 "slow": {
                     "_name": "Slow",
