@@ -591,9 +591,9 @@
             },
             "AdversaryTrait": {
                 "relentless": {
-                    "_name": "Implacable",
-                    "_description": "Un adversario con Implacable puede activarse hasta X veces durante un movimiento de DJ siempre y cuando queden contadores de Implacable disponibles.",
-                    "_tip": "El movimiento de Implacable es útil si quieres activar a un adversario más de una vez en un solo movimiento de DJ. Esta opción es la mejor para los adversarios más rápidos o peligrosos, o para adversarios que lucharan contra el grupo sin ayuda."
+                    "name": "Implacable",
+                    "description": "Un adversario con Implacable puede activarse hasta X veces durante un movimiento de DJ siempre y cuando queden contadores de Implacable disponibles.",
+                    "tip": "El movimiento de Implacable es útil si quieres activar a un adversario más de una vez en un solo movimiento de DJ. Esta opción es la mejor para los adversarios más rápidos o peligrosos, o para adversarios que lucharan contra el grupo sin ayuda."
                 },
                 "slow": {
                     "_name": "Slow",
