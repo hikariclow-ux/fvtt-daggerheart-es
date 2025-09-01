@@ -596,14 +596,14 @@
                     "tip": "El movimiento de Implacable es útil si quieres activar a un adversario más de una vez en un solo movimiento de DJ. Esta opción es la mejor para los adversarios más rápidos o peligrosos, o para adversarios que lucharan contra el grupo sin ayuda."
                 },
                 "slow": {
-                    "_name": "Slow",
-                    "_description": "A foe with Slow costs X action tokens to activate.",
-                    "_tip": "The Slow move is useful if you want an adversary who narratively takes longer to act than others, like a slug creature or a massive ogre. This is usually most effective when that creature is very powerful when it does act, but eats up lots of action tokens to do it."
+                    "name": "Lento",
+                    "description": "Un adversario con Lento tiene un coste de activación de X.",
+                    "tip": "Lento es útil si quieres un adversario que, narrativamente, tarda más en actuar que otros, como una babosa o un ogro inmenso. Esta opción es más efectiva cuando la criatura es muy poderosa cuando actúa pero gasta muchos contadores para hacerlo."
                 },
                 "minion": {
-                    "_name": "Minion",
-                    "_description": "For every X damage a PC deals to this adversary, they also deal 1 HP to an additional minion within their attack’s range.",
-                    "_tip": "The Minion move is useful when you want to drop lots of small enemies into the battlefield, knowing the party can swing through them very easily. This move means that if a PC hits one minion and they do enough damage, they also hit a number of others that are in range for them. Because of this, it’s often best to have minions crowd a PC–it will feel overwhelming and dangerous until they’re able to make an attack against them. If you want that cinematic feeling of the PCs taking out waves of enemies with a single attack roll, minions are a great tool to make that happen."
+                    "name": "Esbirro",
+                    "description": "Por cada X de daño que un PJ cause a este adversario, causan 1 PV a un esbirro adicional dentro del alcance de sus ataques.",
+                    "tip": "El movimiento Esbirro es útil cuando quieres sacar muchos enemigos débiles al campo de batalla, sabiendo que el grupo puede tumbarlos muy fácilmente. Significa que si un PJ golpea a un esbirro, y causa suficiente daño, también golpeará a otros esbirros adicionalmente si están a su alcance. Debido a esto suele ser mejor amontonar esbirros contra un PJ PJ. Dará la sensación de ser abrumador y peligroso hasta que el PJ pueda atacarles. Si quieres esa sensación cinemática en la que los PJ eliminan olas enteras de enemigos con un solo ataque, los esbirros son la mejor herramienta para ello."
                 }
             },
             "AdversaryType": {
@@ -740,58 +740,58 @@
                     }
                 },
                 "magical": {
-                    "_name": "Magical",
-                    "_description": "You can't mark an Armor Slot to reduce physical damage.",
+                    "name": "Mágica",
+                    "description": "No puedes marcar puntos de Armadura para reducir daño físico.",
                     "effects": {
                         "magical": {
-                            "_name": "Magical",
-                            "_description": "You can't mark an Armor Slot to reduce physical damage."
+                            "name": "Mágica",
+                            "description": "No puedes marcar un punto de Armadura para reducir daño físico."
                         }
                     }
                 },
                 "painful": {
-                    "_name": "Painful",
-                    "_description": "Each time you mark an Armor Slot, you must mark a Stress.",
+                    "name": "Dolorosa",
+                    "description": "Cada vez que marques un punto de Armadura debes marcar un Estrés también.",
                     "actions": {
                         "pain": {
-                            "_name": "Pain",
-                            "_description": "Each time you mark an Armor Slot, you must mark a Stress."
+                            "name": "Dolorosa",
+                            "description": "Cada vez que marques un punto de Armadura debes marcar un Estrés también."
                         }
                     }
                 },
                 "physical": {
-                    "_name": "Physical",
-                    "_description": "You can't mark an Armor Slot to reduce magic damage.",
+                    "name": "Física",
+                    "description": "No puedes marcar puntos de Armadura para reducir daño mágico.",
                     "effects": {
                         "physical": {
-                            "_name": "Physical",
-                            "_description": "You can't mark an Armor Slot to reduce magic damage."
+                            "name": "Física",
+                            "description": "No puedes marcar puntos de Armadura para reducir daño mágico."
                         }
                     }
                 },
                 "quiet": {
-                    "_name": "Quiet",
-                    "_description": "You gain a +2 bonus to rolls you make to move silently.",
+                    "name": "Silenciosa",
+                    "description": "Gana un bono de +2 a las tiradas para moverte silenciosamente.",
                     "actions": {
                         "quiet": {
-                            "_name": "Quiet",
-                            "_description": "You gain a +2 bonus to rolls you make to move silently."
+                            "name": "Silenciosa",
+                            "description": "Gana un bono de +2 a las tiradas para moverte silenciosamente."
                         }
                     }
                 },
                 "reinforced": {
-                    "_name": "Reinforced",
-                    "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.",
+                    "name": "Reforzada",
+                    "description": "Cuando marques tu último punto de Armadura aumenta tus límites de daño en +2 hasta que recuperes, por lo menos, 1 punto de Armadura.",
                     "actions": {
                         "reinforce": {
-                            "_name": "Reinforce",
-                            "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+                            "name": "Reforzada",
+                            "description": "Cuando marques tu último punto de Armadura aumenta tus límites de daño en +2 hasta que recuperes, por lo menos, 1 punto de Armadura."
                         }
                     },
                     "effects": {
                         "reinforced": {
-                            "_name": "Reinforced",
-                            "_description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+                            "name": "Reforzada",
+                            "description": "Cuando marques tu último punto de Armadura aumenta tus límites de daño en +2 hasta que recuperes, por lo menos, 1 punto de Armadura.."
                         }
                     }
                 },
